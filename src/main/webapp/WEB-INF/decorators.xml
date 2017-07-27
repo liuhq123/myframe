@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/layouts/">
+	<excludes>
+		<pattern>/cloud/*</pattern>
+		<pattern>/static/*</pattern>
+		<pattern>/cxf/*</pattern>
+		<pattern>/api/*</pattern>
+		<pattern>/javasimon/*</pattern>
+		<pattern>/WEB-INF/views/login/*</pattern>
+	</excludes>
+
+	
+	<decorator name="default" page="default.jsp">
+		<pattern>/login/*</pattern>
+	</decorator>
+	
+<!-- 	<decorator name="none"> -->
+<!--             These files will not get decorated. -->
+<!--             <pattern>/WEB-INF/views/login/*</pattern> -->
+<!--         </decorator> -->
+	
+	
+</decorators>
